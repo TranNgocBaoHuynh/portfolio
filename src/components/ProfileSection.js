@@ -58,7 +58,7 @@ function ProfileSection()
                 </div>
                 <Pacman />
                 <div className='profile-item'>
-                    <img alt='myPic2' className='my-photo2' src='/profile.jpg' />
+                    <img alt='myPic2' className='my-photo2' src='/profile.JPG' />
                 
                     <div className='fun-fact'>
                         <h1>Some Other Random Things About Me!</h1>
