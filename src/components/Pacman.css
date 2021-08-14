@@ -1,0 +1,103 @@
+
+/* Originally by Going-To Internet */
+
+@charset "utf-8";
+/* CSS Document */
+
+.paceman{
+    width:50px;
+	height:50px;
+	border-radius:50%;
+	background-color:#f2d648;
+	margin-top:20px;
+	position:relative;
+    margin-bottom:1rem;
+}
+
+.paceman-eye{
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	background-color:#333333;
+	position:absolute;
+	top:7px;
+	right:18px;
+	position:absolute;
+}
+
+.paceman-mouth{
+	background-color:rgb(225,225,220);
+	position:absolute;
+	width:100%;
+	height:100%;
+    clip-path:polygon(100% 74%,44% 48%,100% 21%);
+    animation-name:eat;
+    animation-duration:0.6s;
+    animation-iteration-count:infinite;
+}
+
+.paceman-food{
+	position:absolute;
+	width:15px;
+	height:15px;
+	background-color:rgb(240,94,97);
+	border-radius:50%;
+	top:40%;
+	left:85px;
+	animation:food 0.62s infinite;
+} 
+
+.paceman-f{
+    position:absolute;
+	width:15px;
+	height:15px;
+	background-color:rgb(240,94,97);
+	border-radius:50%;
+	top:40%;
+	left:85px;
+}
+
+.paceman-f:nth-child(n) {
+	background-color:rgb(120,162,204);
+	left: 125px;
+}
+
+.paceman-f:nth-child(2n) {
+	background-color:rgb(255,205,98);
+	left:175px;
+}
+
+.paceman-f:nth-child(3n) {
+    background-color: rgb(240,94,97);
+    left:225px;
+}
+
+
+@keyframes eat{
+    0%{
+	    clip-path:polygon(100% 74%,44% 48%,100% 21%);
+	}
+	25%{
+	    clip-path:polygon(100% 60%,44% 48%,100% 40%);
+	}
+	50%{
+	    clip-path:polygon(100% 50%,44% 48%,100% 50%);
+	}
+	75%{
+	    clip-path:polygon(100% 59%,44% 48%,100% 35%);
+	}
+	100%{
+	    clip-path:polygon(100% 74%,44% 48%,100% 21%);
+	}
+}
+
+@keyframes food	{
+	0%{
+	    transform:translateX(0);
+		opacity:1;
+    }
+	100%{
+		transform:translateX(-50px);
+		opacity:0;
+    }		
+}

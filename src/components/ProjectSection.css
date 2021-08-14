@@ -1,0 +1,44 @@
+
+.proj {
+  padding: 3rem;
+  background: rgb(34,39,46);
+
+}
+
+.proj-container {
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  flex-flow: column;
+}
+
+
+.proj-container h1{
+  color: rgba(250,250,250,0.85);
+  size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+
+}
+.proj-wrapper {
+  position: relative;
+  margin: -30px 10px 55px;
+}
+
+.proj-item{
+  display: flex;
+  flex-flow:row;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+  align-self: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+  .proj-container{
+      width:100%;
+  }
+
+}

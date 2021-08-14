@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
   }
+  
+  ::selection {
+   /*background-color: rgb(53,180,250);*/
+    background-color: rgB(131,226,207);
+    color:rgb(8, 25, 90);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  .home,
+  .services,
+  .products{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .services {
+    /*background-image: url('/images/img-2.jpg');*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .products {
+    /*background-image: url('/images/img-1.jpg');*/
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+.lower-section,
+.upper-section {
+  display: relative;
+  width:auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+} 
 
-.App-link {
-  color: #61dafb;
+.section-divider {
+  position: relative;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.section-divider:before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f5fc";
+      color:rgb(225,225,220);
+      font-weight: 900;
+      align-items: center; 
+      padding-top: 1.25rem;
+      width: 6.5rem;
+      height: 6.5rem;
+      background: rgb(34,39,46);
+      border-radius: 100%;
+      position: absolute;
+      top: -3rem;
+      left: calc(50% - 3.15rem);
+      text-indent: 1.98rem;
+      font-size: 2rem;
+    }

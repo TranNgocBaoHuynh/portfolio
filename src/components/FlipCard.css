@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.front,
+.back {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  display: block;
+  background: rgb(220, 224, 247);
+  box-shadow: 8px 8px 5px grey;
+  padding: 10px;
+  position: absolute;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: -webkit-transform ease 500ms;
+  transition: transform ease 500ms;
+  justify-items: center;
+  opacity:0.96;
+  
+}
+
+.flip-card-outer {
+  align-items: center;
+  padding-left:1rem;
+  padding-top:2rem;
+  padding-right: 1rem;
+  width: 333px;
+  height: 280px;
+  perspective: 1000px;
+  margin: 25px 0; 
+}  
+
+.hover:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+  
+.flip-card-inner {
+  z-index: 10;
+  backface-visibility: visible;
+  transform-style: preserve-3d;
+  transition: .5s linear .1s;
+  position: relative;
+  width: inherit;
+  height: inherit;
+}    
+
+.showBack {
+  transform: rotateY(180deg);
+}
+    
+.card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border: 0;
+ 
+}  
+ 
+.front {
+  z-index: 9;
+  transform: rotateY(0);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.title{
+  width:100%;
+  font-size: 1.35rem;
+  padding-top:1.25rem;
+  padding-bottom: 1.25rem;
+  text-align: center;
+  color:rgb(8,25,90);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+
+.image-container {
+  position: relative;
+  height:10rem;
+}
+.image-container img {
+      width: 100%;
+      border-radius: 10px;
+      height:100%;
+
+  }
+
+.back {
+  z-index: 8;
+  transform: rotateY(180deg);
+}
+
+.back p {
+  margin-bottom: 0;
+}
+
+.name{
+  padding-top: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color:rgb(8,25,90);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.detail {
+  font-size: 1rem;
+  font-weight: 10;
+  color:rgb(8,25,90);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+  
+.github{
+  /*background-color:rgba(26, 30, 31);*/
+  height:45%;
+  width:100%;
+  text-align: center;
+  background-image:url(./picture/github2.jpg);
+  border-radius: 10px;
+
+}
+
+.github img{
+  background-image: transparent;
+  height:100%;
+
+}
+
+.github i{
+  color: white;
+  font-size: 5rem;
+  padding-top: 0.8rem;
+}
+  
+.icon {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  transform: rotateY(180deg);
+  color:rgb(8,25,90);
+}
+        
+          
+  

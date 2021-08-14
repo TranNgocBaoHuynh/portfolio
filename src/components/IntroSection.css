@@ -1,0 +1,72 @@
+.my-photo{
+    border-radius: 5%;
+    width: 230px;
+    height: auto;
+    
+}
+
+.intro{
+    background:rgb(225,225,220);
+}
+.intro-container{
+    /*background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);*/
+    padding: 4rem;
+    background: rgb(225,225,220);
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+    display: flex;
+    flex-flow: column;
+    column-gap: 3rem;
+    align-items: center;
+    max-width: 1100px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.intro-container h1{
+    color:rgb(8,25,90);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-style: italic;
+    
+}
+.intro-container p{
+    color: rgb(8, 25, 90);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10;
+}
+  
+  .intro-wrapper {
+    position: relative;
+    margin: 60px 8px 50px;
+  }
+  
+  .intro-item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    justify-content: center;
+    margin-left: 5rem;
+  }
+  
+  .intro-item-content{
+    float:right;
+    margin-left: 3rem;
+  }
+
+  
+  @media only screen and (max-width: 960px) {
+    .intro-container{
+        width:100%;
+    }
+    .intro-item {
+      margin-bottom: 2rem;
+      display:flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+  }
