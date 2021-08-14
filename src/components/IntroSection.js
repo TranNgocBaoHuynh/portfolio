@@ -4,13 +4,16 @@ import './IntroSection.css';
 import {ButtonEmail} from './ButtonEmail'
 import {ButtonProfile} from './ButtonProfile'
 
+/*picture*/
+import myPic from '../picture/myPic.jpg';
+
 function IntroSection(){
     return(
         <div className="intro">
             <div className='intro-container'>
                 <div className='intro-wrapper'>
                     <div className="intro-item">
-                        <img alt="myPic" className="my-photo" src="/myPic.jpg" />
+                        <img alt="myPic" className="my-photo" src={myPic} />
                     
                          <div className="intro-item-content">
                             <h1> I will bring Doraemon into real life!</h1>

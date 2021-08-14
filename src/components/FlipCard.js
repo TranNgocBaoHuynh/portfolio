@@ -5,6 +5,8 @@ import {Link} from 'react-router-dom';
 import './FlipCard.css';
 import {If, Then, Else} from 'react-if';
 
+import gith from '../picture/github2.jpg';
+
 function FlipCard({ card: { id, path, front, back } }) {
   const [showBack] = useState(false);
   
@@ -52,7 +54,7 @@ function FlipCard({ card: { id, path, front, back } }) {
           </Then>
           <Else>
             <div className="github">
-              <img src="github2.jpg" alt={'github'} height={100}></img>
+              <img src={gith} alt={'github'} height={100}></img>
             </div>
             {back_content}
           </Else>

@@ -2,6 +2,9 @@ import React from 'react';
 import './ProfileSection.css';
 import Pacman from './Pacman';
 
+/*picture*/
+import myPic2 from '../picture/profile.jpg';
+
 function ProfileSection()
 {
     return(
@@ -58,7 +61,7 @@ function ProfileSection()
                 </div>
                 <Pacman />
                 <div className='profile-item'>
-                    <img alt='myPic2' className='my-photo2' src='/profile.JPG' />
+                    <img alt='myPic2' className='my-photo2' src={myPic2} />
                 
                     <div className='fun-fact'>
                         <h1>Some Other Random Things About Me!</h1>
