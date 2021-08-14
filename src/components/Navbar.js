@@ -48,7 +48,7 @@ function Navbar() {
                         </li>
                     </ul>
 
-                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                    <Link to='/portfolio' className='navbar-logo' onClick={closeMobileMenu}>
                         TH 
                     </Link> 
                     {button}

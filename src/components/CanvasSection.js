@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css';
 import './CanvasSection.css';
+import robot from '../picture/robot.png';
 
 function CanvasSection()
 {
@@ -25,7 +26,7 @@ function CanvasSection()
                 </p>
                 <br></br>
                 <p>
-                <img alt="robot" className="robot-photo" src="./porfolio/robot.png" />    
+                <img alt="robot" className="robot-photo" src={robot} />    
                 </p>
             </div>
         </div>
