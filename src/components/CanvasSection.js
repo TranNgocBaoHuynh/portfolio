@@ -25,7 +25,7 @@ function CanvasSection()
                 </p>
                 <br></br>
                 <p>
-                <img alt="robot" className="robot-photo" src="/robot.png" />    
+                <img alt="robot" className="robot-photo" src="../../public/robot.png" />    
                 </p>
             </div>
         </div>
