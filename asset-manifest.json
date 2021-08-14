@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.92431586.chunk.css",
-    "main.js": "/portfolio/static/js/main.e4227748.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e4227748.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.0a95cfb6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0a95cfb6.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.4cc906cc.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.4cc906cc.js.map",
     "static/css/2.371c07c7.chunk.css": "/portfolio/static/css/2.371c07c7.chunk.css",
@@ -13,14 +13,26 @@
     "static/css/main.92431586.chunk.css.map": "/portfolio/static/css/main.92431586.chunk.css.map",
     "static/js/2.f4f843b2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f4f843b2.chunk.js.LICENSE.txt",
     "static/media/TranHuynh_Resume.896b4e67.pdf": "/portfolio/static/media/TranHuynh_Resume.896b4e67.pdf",
+    "static/media/cifar.a71c91f6.webp": "/portfolio/static/media/cifar.a71c91f6.webp",
+    "static/media/crypto.9b2a2fe2.jpg": "/portfolio/static/media/crypto.9b2a2fe2.jpg",
     "static/media/FlipCard.css": "/portfolio/static/media/github2.c4d44ad8.jpg",
-    "static/media/robot.ce7911ad.png": "/portfolio/static/media/robot.ce7911ad.png"
+    "static/media/linux.affdbae5.jpg": "/portfolio/static/media/linux.affdbae5.jpg",
+    "static/media/luoshu.217ef5ad.jpg": "/portfolio/static/media/luoshu.217ef5ad.jpg",
+    "static/media/myPic.f8cc21d2.jpg": "/portfolio/static/media/myPic.f8cc21d2.jpg",
+    "static/media/network.2b59f9f0.jpg": "/portfolio/static/media/network.2b59f9f0.jpg",
+    "static/media/profile.a24c93bc.jpg": "/portfolio/static/media/profile.a24c93bc.jpg",
+    "static/media/queens.13a6243e.png": "/portfolio/static/media/queens.13a6243e.png",
+    "static/media/robot.ce7911ad.png": "/portfolio/static/media/robot.ce7911ad.png",
+    "static/media/sec_tutor.b20b657e.jpg": "/portfolio/static/media/sec_tutor.b20b657e.jpg",
+    "static/media/steg.497f70ee.png": "/portfolio/static/media/steg.497f70ee.png",
+    "static/media/vti.97d73ef1.png": "/portfolio/static/media/vti.97d73ef1.png",
+    "static/media/yelp.cd98b529.jpg": "/portfolio/static/media/yelp.cd98b529.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4cc906cc.js",
     "static/css/2.371c07c7.chunk.css",
     "static/js/2.f4f843b2.chunk.js",
     "static/css/main.92431586.chunk.css",
-    "static/js/main.e4227748.chunk.js"
+    "static/js/main.0a95cfb6.chunk.js"
   ]
 }
