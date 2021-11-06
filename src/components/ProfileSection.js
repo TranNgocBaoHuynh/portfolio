@@ -26,6 +26,9 @@ function ProfileSection()
                 <div className='profile-item-content'>
                     <h1>Working Experience</h1>
                     <hr/>
+                    <p>&#8227; Graduate Service Assistant - Adaptive and Secure Computing Systems (ASCS) Laboratory; Secure, Trusted, and 
+                        Assured Microelectronics Center, Arizona State University, Oct 2021 - Present.
+                    </p>
                     <p>&#8227; Research Assistant, Computer Science Department, CSU Sacramento, 2019-2020.
                     </p>
                     <p>&#8227; Teacher Assistant, Computer Science Department, CSU Sacramento, 2019-2020.
