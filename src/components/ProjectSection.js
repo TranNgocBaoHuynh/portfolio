@@ -31,7 +31,7 @@ var cardStyle = {
         title: "Artificial Intelligence Pacman Agent"
       },
       back:{
-        detail:"Applying Artificial Intelligence techniques to play Pacman. Implementing informed state-space to solve navigation and traveling problems,\
+        detail:"Applying Artificial Intelligence techniques to play Pacman. Implementing informed state-space search to solve navigation and traveling problems,\
         minimax and expectimax to solve adversarial and a stochastic search problem, and\
         Reinforcement Learning Pacman Agent."
       }
