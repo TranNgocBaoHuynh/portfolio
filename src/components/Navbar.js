@@ -37,7 +37,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/tranngocbaohuynh.github.io/profile' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/profile' className='nav-links' onClick={closeMobileMenu}>
                                 Profile
                             </Link>
                         </li>
@@ -48,7 +48,7 @@ function Navbar() {
                         </li>
                     </ul>
 
-                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                    <Link to='/portfolio' className='navbar-logo' onClick={closeMobileMenu}>
                         TH 
                     </Link> 
                     {button}
