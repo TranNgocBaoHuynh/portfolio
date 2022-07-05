@@ -1,6 +1,6 @@
 {
-  "homepage": "https://TranNgocBaoHuynh.github.io/",
-  "name": "porfolio",
+  "homepage": "https://TranNgocBaoHuynh.github.io",
+ 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
