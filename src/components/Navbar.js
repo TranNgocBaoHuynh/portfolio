@@ -42,8 +42,8 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/resume' className='nav-links' onClick={closeMobileMenu}>
-                                Resume
+                            <Link to='/cv' className='nav-links' onClick={closeMobileMenu}>
+                                CV
                             </Link>
                         </li>
                     </ul>

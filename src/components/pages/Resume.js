@@ -1,7 +1,7 @@
 import React from 'react';
 import Viewer,{Worker} from '@phuocng/react-pdf-viewer';
 import '@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css';
-import file from '../TranHuynh_Resume.pdf';
+import file from '../TranHuynh_CV.pdf';
 
 function Resume(){
     return (

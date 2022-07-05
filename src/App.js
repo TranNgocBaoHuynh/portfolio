@@ -14,7 +14,7 @@ function App() {
             <Switch>
               
               <Route path='/portfolio/' exact component={Home}/>
-              <Route path='/resume' component={Resume} />
+              <Route path='/cv' component={Resume} />
               <Route path='/profile' component={Profile} />
             </Switch>
         </Router>

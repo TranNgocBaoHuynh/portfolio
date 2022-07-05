@@ -26,8 +26,10 @@ function ProfileSection()
                 <div className='profile-item-content'>
                     <h1>Working Experience</h1>
                     <hr/>
+                    <p>&#8227; Volunteer Research Assistant - Neurorobotics Laboratory, Arizona State University, May 2022 - Present.
+                    </p>
                     <p>&#8227; Graduate Service Assistant - Adaptive and Secure Computing Systems (ASCS) Laboratory; Secure, Trusted, and 
-                        Assured Microelectronics Center, Arizona State University, Oct 2021 - Present.
+                        Assured Microelectronics Center, Arizona State University, Oct 2021 - May 2022.
                     </p>
                     <p>&#8227; Research Assistant, Computer Science Department, CSU Sacramento, 2019-2020.
                     </p>
@@ -38,6 +40,8 @@ function ProfileSection()
                 <div className='profile-item-content'>
                     <h1>Leadership Experience</h1>
                     <hr/>
+                    <p>&#8227; Vice President of Sun Devil Birdie, Arizona State University, 2022-2023.
+                    </p>
                     <p>&#8227; President of Badminton Club, CSU Sacramento, 2019-2020.
                     </p>
                     <p>&#8227; Treasurer of Badminton Club, CSU Sacramento, 2018-2019.
