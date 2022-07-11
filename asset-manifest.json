@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6e2a9f64.chunk.css",
-    "main.js": "/static/js/main.355e6274.chunk.js",
-    "main.js.map": "/static/js/main.355e6274.chunk.js.map",
+    "main.js": "/static/js/main.0c6ce64f.chunk.js",
+    "main.js.map": "/static/js/main.0c6ce64f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
     "static/css/2.371c07c7.chunk.css": "/static/css/2.371c07c7.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.371c07c7.chunk.css.map": "/static/css/2.371c07c7.chunk.css.map",
     "static/css/main.6e2a9f64.chunk.css.map": "/static/css/main.6e2a9f64.chunk.css.map",
     "static/js/2.2fb3a193.chunk.js.LICENSE.txt": "/static/js/2.2fb3a193.chunk.js.LICENSE.txt",
-    "static/media/TranHuynh_CV.79985180.pdf": "/static/media/TranHuynh_CV.79985180.pdf",
+    "static/media/TranHuynh_CV.5be97f5a.pdf": "/static/media/TranHuynh_CV.5be97f5a.pdf",
     "static/media/cifar.a71c91f6.webp": "/static/media/cifar.a71c91f6.webp",
     "static/media/crypto.9b2a2fe2.jpg": "/static/media/crypto.9b2a2fe2.jpg",
     "static/media/FlipCard.css": "/static/media/github2.c4d44ad8.jpg",
@@ -33,6 +33,6 @@
     "static/css/2.371c07c7.chunk.css",
     "static/js/2.2fb3a193.chunk.js",
     "static/css/main.6e2a9f64.chunk.css",
-    "static/js/main.355e6274.chunk.js"
+    "static/js/main.0c6ce64f.chunk.js"
   ]
 }
